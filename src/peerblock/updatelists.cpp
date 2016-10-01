@@ -68,7 +68,8 @@ static const char *g_updateurl="http://update.peerblock.com/pb_update_test.php?b
 static const LPCTSTR g_homepage=_T("http://update.peerblock.com/latest-test-release");
 #endif
 #ifdef PB_RELTYPE_DEV
-static const char *g_updateurl="http://update.peerblock.com/pb_update_dev.php?build="BUILDSTR;
+//static const char *g_updateurl="http://update.peerblock.com/pb_update_dev.php?build="BUILDSTR;
+static const char *g_updateurl="http://update.peerblock.com/pb_update_dev.php?build=";
 static const LPCTSTR g_homepage=_T("http://www.peerblock.com");
 #endif
 

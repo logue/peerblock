@@ -34,12 +34,16 @@
 #define PB_REPORT_BUGS
 #define BOOST_USE_WINDOWS_H
 
+#define _SILENCE_STDEXT_HASH_DEPRECATION_WARNINGS 1
+
+#include <string>
 #include <set>
 #include <map>
 #include <list>
 #include <stack>
 #include <queue>
 #include <bitset>
+#include <iostream>
 #include <vector>
 #include <string>
 #include <iomanip>
@@ -50,6 +54,7 @@
 #include <algorithm>
 #include <functional>
 #include <stdexcept>
+#include <iterator>
 #pragma warning(push, 3)
 #include <boost/crc.hpp>
 #include <boost/bind.hpp>

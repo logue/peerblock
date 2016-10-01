@@ -23,6 +23,8 @@
 #ifndef __STDAFX_H__
 #define __STDAFX_H__
 
+#define _SILENCE_STDEXT_HASH_DEPRECATION_WARNINGS 1
+
 #include <hash_map>
 #include <list>
 #include <vector>
